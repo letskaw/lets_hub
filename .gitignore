@@ -1,13 +1,8 @@
-# Ignorer les fichiers temporaires
-*.log
-*.tmp
+# Ignorer tout
+*
 
-# Ignorer le dossier node_modules
-node_modules/
-
-# Ignorer les fichiers de configuration spécifiques au système
-.DS_Store
-
-old
-csv
-content
+# Garder seulement ces fichiers
+!README.md
+!app.py
+!pages/
+!scripts/
