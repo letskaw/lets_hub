@@ -1,0 +1,432 @@
+,label,amount,day,day_id,month,month_id,year,type
+219,Station U,43.25,Lundi 6,6,Janvier,1,2025,CARD_PAYMENT
+220,Callune,10.7,Lundi 6,6,Janvier,1,2025,CARD_PAYMENT
+222,Pharma Paridis,1.34,Jeudi 9,9,Janvier,1,2025,CARD_PAYMENT
+223,DEVRED,49.0,Jeudi 9,9,Janvier,1,2025,CARD_PAYMENT
+224,E.Leclerc,9.95,Jeudi 9,9,Janvier,1,2025,CARD_PAYMENT
+225,Lidl,2.1,Jeudi 9,9,Janvier,1,2025,CARD_PAYMENT
+226,DIS'Automatic,0.4,Vendredi 10,10,Janvier,1,2025,CARD_PAYMENT
+227,Ethereal Decib,5.0,Vendredi 10,10,Janvier,1,2025,CARD_PAYMENT
+228,Decadanse,8.0,Vendredi 10,10,Janvier,1,2025,CARD_PAYMENT
+229,Decadanse,8.0,Vendredi 10,10,Janvier,1,2025,CARD_PAYMENT
+230,Ethereal Decibel,10.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+231,Ethereal Decib,5.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+232,Ethereal Decib,20.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+233,Decadanse,8.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+234,Decadanse,13.0,Dimanche 12,12,Janvier,1,2025,CARD_PAYMENT
+235,Ethereal Decibel,10.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+236,Decadanse,3.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+237,Decadanse,18.0,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+238,Les Hameaux Bio 5,61.51,Samedi 11,11,Janvier,1,2025,CARD_PAYMENT
+239,DIS'Automatic,0.5,Lundi 13,13,Janvier,1,2025,CARD_PAYMENT
+240,DIS'Automatic,0.5,Lundi 13,13,Janvier,1,2025,CARD_PAYMENT
+241,DIS'Automatic,0.5,Lundi 13,13,Janvier,1,2025,CARD_PAYMENT
+242,Game Over,7.0,Mercredi 15,15,Janvier,1,2025,CARD_PAYMENT
+243,E.Leclerc,22.23,Mercredi 15,15,Janvier,1,2025,CARD_PAYMENT
+244,DIS'Automatic,0.5,Mercredi 15,15,Janvier,1,2025,CARD_PAYMENT
+245,DIS'Automatic,0.5,Mercredi 15,15,Janvier,1,2025,CARD_PAYMENT
+246,DIS'Automatic,0.9,Mercredi 15,15,Janvier,1,2025,CARD_PAYMENT
+247,E.Leclerc,9.71,Jeudi 16,16,Janvier,1,2025,CARD_PAYMENT
+249,Pai Lombarderie,1.4,Vendredi 17,17,Janvier,1,2025,CARD_PAYMENT
+250,E.Leclerc,6.37,Vendredi 17,17,Janvier,1,2025,CARD_PAYMENT
+251,Les Hameaux Bio 5,33.29,Vendredi 17,17,Janvier,1,2025,CARD_PAYMENT
+252,Carrefour,20.08,Samedi 18,18,Janvier,1,2025,CARD_PAYMENT
+253,Carrefour,14.77,Samedi 18,18,Janvier,1,2025,CARD_PAYMENT
+254,DIS'Automatic,1.0,Lundi 20,20,Janvier,1,2025,CARD_PAYMENT
+255,DIS'Automatic,0.7,Lundi 20,20,Janvier,1,2025,CARD_PAYMENT
+256,Vertical'Art,5.0,Lundi 20,20,Janvier,1,2025,CARD_PAYMENT
+257,DIS'Automatic,0.5,Mardi 21,21,Janvier,1,2025,CARD_PAYMENT
+258,Le Vestiaire,17.5,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+259,Le Vestiaire,3.8,Jeudi 23,23,Janvier,1,2025,CARD_PAYMENT
+260,E.Leclerc,0.6,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+261,E.Leclerc,5.39,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+262,Unan Regie30 Sum,9.0,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+263,DIS'Automatic,0.55,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+264,Burger King,10.3,Jeudi 23,23,Janvier,1,2025,CARD_PAYMENT
+265,SumUp,15.0,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+266,Le Cote Plage,4.5,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+267,Le Cote Plage,8.5,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+268,Le Cote Plage,8.5,Mercredi 22,22,Janvier,1,2025,CARD_PAYMENT
+270,Pharma Paridis,4.72,Vendredi 24,24,Janvier,1,2025,CARD_PAYMENT
+271,Pai Lombarderie,1.85,Vendredi 24,24,Janvier,1,2025,CARD_PAYMENT
+272,E.Leclerc,1.7,Vendredi 24,24,Janvier,1,2025,CARD_PAYMENT
+273,DIS'Automatic,0.55,Vendredi 24,24,Janvier,1,2025,CARD_PAYMENT
+274,DIS'Automatic,0.8,Vendredi 24,24,Janvier,1,2025,CARD_PAYMENT
+276,Les Hameaux Bio 5,55.6,Samedi 25,25,Janvier,1,2025,CARD_PAYMENT
+277,Carrefour,44.0,Samedi 25,25,Janvier,1,2025,CARD_PAYMENT
+278,E.Leclerc,2.95,Samedi 25,25,Janvier,1,2025,CARD_PAYMENT
+279,Vertical'Art,130.0,Samedi 25,25,Janvier,1,2025,CARD_PAYMENT
+280,Papaia,16.0,Samedi 25,25,Janvier,1,2025,CARD_PAYMENT
+281,E.Leclerc,0.3,Lundi 27,27,Janvier,1,2025,CARD_PAYMENT
+282,E.Leclerc,0.3,Lundi 27,27,Janvier,1,2025,CARD_PAYMENT
+283,E.Leclerc,0.3,Lundi 27,27,Janvier,1,2025,CARD_PAYMENT
+284,DIS'Automatic,0.55,Lundi 27,27,Janvier,1,2025,CARD_PAYMENT
+285,DIS'Automatic,0.55,Lundi 27,27,Janvier,1,2025,CARD_PAYMENT
+286,Pai Lombarderie,3.49,Mercredi 29,29,Janvier,1,2025,CARD_PAYMENT
+287,Pai Lombarderie,1.85,Mercredi 29,29,Janvier,1,2025,CARD_PAYMENT
+288,DIS'Automatic,0.55,Mercredi 29,29,Janvier,1,2025,CARD_PAYMENT
+289,E.Leclerc,20.1,Jeudi 30,30,Janvier,1,2025,CARD_PAYMENT
+290,E.Leclerc,2.25,Jeudi 30,30,Janvier,1,2025,CARD_PAYMENT
+291,DIS'Automatic,0.55,Jeudi 30,30,Janvier,1,2025,CARD_PAYMENT
+292,DIS'Automatic,0.55,Jeudi 30,30,Janvier,1,2025,CARD_PAYMENT
+293,CALAO Finance,7.21,Jeudi 30,30,Janvier,1,2025,CARD_PAYMENT
+296,E.Leclerc,9.52,Vendredi 31,31,Janvier,1,2025,CARD_PAYMENT
+297,Flash Net,1.2,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+298,Flash Net,1.2,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+299,Flash Net,5.0,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+300,Flash Net,1.2,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+301,Les Hameaux Bio 5,39.33,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+302,E.Leclerc,3.94,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+303,E.Leclerc,1.77,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+304,Flash Net,1.2,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+305,IntermarchÃ©,14.56,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+306,La Coupe Carree,13.0,Samedi 1,1,Février,2,2025,CARD_PAYMENT
+309,E.Leclerc,5.33,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+310,Pai Lombarderie,1.85,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+311,The Coffee House,12.5,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+312,The Coffee House,5.0,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+313,The Coffee House,12.5,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+314,The Coffee House,12.0,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+315,The Coffee House,12.0,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+316,Pai Lombarderie,1.85,Mardi 4,4,Février,2,2025,CARD_PAYMENT
+317,Bioliance,21.2,Lundi 3,3,Février,2,2025,CARD_PAYMENT
+318,Pai Lombarderie,1.85,Mercredi 5,5,Février,2,2025,CARD_PAYMENT
+319,E.Leclerc,4.69,Mercredi 5,5,Février,2,2025,CARD_PAYMENT
+320,The Coffee House,16.0,Mardi 4,4,Février,2,2025,CARD_PAYMENT
+321,The Coffee House,4.2,Mardi 4,4,Février,2,2025,CARD_PAYMENT
+322,E.Leclerc,3.23,Jeudi 6,6,Février,2,2025,CARD_PAYMENT
+323,Les Hameaux Bio 5,72.56,Vendredi 7,7,Février,2,2025,CARD_PAYMENT
+324,CALAO Finance,7.78,Vendredi 7,7,Février,2,2025,CARD_PAYMENT
+325,The Coffee House,8.0,Jeudi 6,6,Février,2,2025,CARD_PAYMENT
+326,The Coffee House,4.2,Jeudi 6,6,Février,2,2025,CARD_PAYMENT
+327,The Coffee House,8.5,Jeudi 6,6,Février,2,2025,CARD_PAYMENT
+328,E.Leclerc,0.6,Jeudi 6,6,Février,2,2025,CARD_PAYMENT
+329,IntermarchÃ©,3.84,Dimanche 9,9,Février,2,2025,CARD_PAYMENT
+330,Flash Net,5.0,Dimanche 9,9,Février,2,2025,CARD_PAYMENT
+331,Flash Net,2.4,Dimanche 9,9,Février,2,2025,CARD_PAYMENT
+332,Flash Net,1.2,Dimanche 9,9,Février,2,2025,CARD_PAYMENT
+333,Papaia,16.0,Samedi 8,8,Février,2,2025,CARD_PAYMENT
+334,DIS'Automatic,0.95,Lundi 10,10,Février,2,2025,CARD_PAYMENT
+335,DIS'Automatic,0.7,Lundi 10,10,Février,2,2025,CARD_PAYMENT
+336,DIS'Automatic,0.95,Lundi 10,10,Février,2,2025,CARD_PAYMENT
+337,Jul 0417,25.99,Lundi 10,10,Février,2,2025,CARD_PAYMENT
+338,Pai Lombarderie,1.4,Lundi 10,10,Février,2,2025,CARD_PAYMENT
+339,DIS'Automatic,0.95,Mercredi 12,12,Février,2,2025,CARD_PAYMENT
+340,DIS'Automatic,0.7,Mercredi 12,12,Février,2,2025,CARD_PAYMENT
+341,DIS'Automatic,0.7,Mercredi 12,12,Février,2,2025,CARD_PAYMENT
+342,DIS'Automatic,0.55,Mercredi 12,12,Février,2,2025,CARD_PAYMENT
+343,DIS'Automatic,0.7,Jeudi 13,13,Février,2,2025,CARD_PAYMENT
+344,DIS'Automatic,0.7,Jeudi 13,13,Février,2,2025,CARD_PAYMENT
+345,DIS'Automatic,0.7,Jeudi 13,13,Février,2,2025,CARD_PAYMENT
+346,The Coffee House,8.0,Mercredi 12,12,Février,2,2025,CARD_PAYMENT
+347,Carrefour,44.0,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+348,E.Leclerc,13.83,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+349,Les Chiens Stup,2.0,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+350,Les Chiens Stup,2.5,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+351,Les Chiens Stup,8.0,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+352,Rue de la Baclerie,49.8,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+353,Les Hameaux Bio 5,74.71,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+354,Le Commerce,25.8,Samedi 15,15,Février,2,2025,CARD_PAYMENT
+355,Meltdown Esport,4.5,Samedi 15,15,Février,2,2025,CARD_PAYMENT
+356,Sub Ouest,13.9,Samedi 15,15,Février,2,2025,CARD_PAYMENT
+357,Le 13 et 3,4.2,Samedi 15,15,Février,2,2025,CARD_PAYMENT
+358,Le 13 et 3,15.7,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+359,Le 13 et 3,13.7,Vendredi 14,14,Février,2,2025,CARD_PAYMENT
+360,Super U,8.35,Lundi 17,17,Février,2,2025,CARD_PAYMENT
+361,Papaia,16.0,Dimanche 16,16,Février,2,2025,CARD_PAYMENT
+362,E.Leclerc,9.9,Jeudi 20,20,Février,2,2025,CARD_PAYMENT
+363,Photomaton,8.0,Vendredi 21,21,Février,2,2025,CARD_PAYMENT
+364,Hyper U,24.02,Samedi 22,22,Février,2,2025,CARD_PAYMENT
+365,NaturÃ©o La Chapelle-sur-Erdre,11.82,Samedi 22,22,Février,2,2025,CARD_PAYMENT
+366,Lidl,0.75,Samedi 22,22,Février,2,2025,CARD_PAYMENT
+367,Papaia,14.0,Samedi 22,22,Février,2,2025,CARD_PAYMENT
+368,DIS'Automatic,0.7,Lundi 24,24,Février,2,2025,CARD_PAYMENT
+369,DIS'Automatic,0.55,Lundi 24,24,Février,2,2025,CARD_PAYMENT
+370,The Coffee House,19.0,Lundi 24,24,Février,2,2025,CARD_PAYMENT
+371,E.Leclerc,1.84,Mardi 25,25,Février,2,2025,CARD_PAYMENT
+372,CALAO Finance,2.64,Mercredi 26,26,Février,2,2025,CARD_PAYMENT
+373,E.Leclerc,1.69,Jeudi 27,27,Février,2,2025,CARD_PAYMENT
+375,Pai Lombarderie,1.15,Vendredi 28,28,Février,2,2025,CARD_PAYMENT
+376,Les Hameaux Bio 5,46.59,Vendredi 28,28,Février,2,2025,CARD_PAYMENT
+377,DIS'Automatic,0.7,Vendredi 28,28,Février,2,2025,CARD_PAYMENT
+378,DIS'Automatic,0.55,Vendredi 28,28,Février,2,2025,CARD_PAYMENT
+379,Le Ferrailleur,12.5,Samedi 1,1,Mars,3,2025,CARD_PAYMENT
+380,E.Leclerc,9.67,Lundi 3,3,Mars,3,2025,CARD_PAYMENT
+381,DIS'Automatic,1.05,Lundi 3,3,Mars,3,2025,CARD_PAYMENT
+382,DIS'Automatic,0.7,Mardi 4,4,Mars,3,2025,CARD_PAYMENT
+383,Pai Lombarderie,1.0,Mardi 4,4,Mars,3,2025,CARD_PAYMENT
+384,E.Leclerc,16.06,Mardi 4,4,Mars,3,2025,CARD_PAYMENT
+385,Pharma Paridis,4.72,Mardi 4,4,Mars,3,2025,CARD_PAYMENT
+386,E.Leclerc,11.34,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+387,DIS'Automatic,0.8,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+388,DIS'Automatic,0.7,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+389,DIS'Automatic,0.7,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+390,DIS'Automatic,1.05,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+391,DIS'Automatic,0.7,Mercredi 5,5,Mars,3,2025,CARD_PAYMENT
+393,DIS'Automatic,0.7,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+394,DIS'Automatic,0.95,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+395,DIS'Automatic,0.95,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+396,DIS'Automatic,0.7,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+397,Pai Lombarderie,1.4,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+398,Les Chiens Stup,11.5,Jeudi 6,6,Mars,3,2025,CARD_PAYMENT
+399,DIS'Automatic,0.7,Vendredi 7,7,Mars,3,2025,CARD_PAYMENT
+400,DIS'Automatic,0.7,Vendredi 7,7,Mars,3,2025,CARD_PAYMENT
+401,E.Leclerc,2.67,Vendredi 7,7,Mars,3,2025,CARD_PAYMENT
+402,Les Hameaux Bio 5,55.41,Vendredi 7,7,Mars,3,2025,CARD_PAYMENT
+403,Papaia,27.5,Samedi 8,8,Mars,3,2025,CARD_PAYMENT
+405,The Coffee House,8.0,Mardi 11,11,Mars,3,2025,CARD_PAYMENT
+406,The Coffee House,10.2,Mardi 11,11,Mars,3,2025,CARD_PAYMENT
+407,Carrefour,28.12,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+408,Carrefour,3.38,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+409,DIS'Automatic,0.95,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+410,DIS'Automatic,0.95,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+411,Pai Lombarderie,1.85,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+412,The Coffee House,23.0,Jeudi 13,13,Mars,3,2025,CARD_PAYMENT
+413,The Coffee House,12.0,Mercredi 12,12,Mars,3,2025,CARD_PAYMENT
+414,E.Leclerc,3.3,Jeudi 13,13,Mars,3,2025,CARD_PAYMENT
+415,E.Leclerc,20.08,Jeudi 13,13,Mars,3,2025,CARD_PAYMENT
+416,Pharma Paridis,10.8,Jeudi 13,13,Mars,3,2025,CARD_PAYMENT
+417,Unan Regie30 Sum,9.0,Jeudi 13,13,Mars,3,2025,CARD_PAYMENT
+418,E.Leclerc,10.51,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+419,Les Hameaux Bio 5,40.01,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+420,DIS'Automatic,0.95,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+421,DIS'Automatic,0.95,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+422,DIS'Automatic,0.95,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+423,DIS'Automatic,0.7,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+424,DIS'Automatic,0.7,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+425,DIS'Automatic,0.95,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+426,DIS'Automatic,0.7,Vendredi 14,14,Mars,3,2025,CARD_PAYMENT
+428,Hyper U,3.2,Samedi 15,15,Mars,3,2025,CARD_PAYMENT
+429,IntermarchÃ©,10.31,Dimanche 16,16,Mars,3,2025,CARD_PAYMENT
+430,Ethereal Decibel,8.0,Samedi 15,15,Mars,3,2025,CARD_PAYMENT
+431,Ethereal Decibel,8.0,Dimanche 16,16,Mars,3,2025,CARD_PAYMENT
+432,E.Leclerc,13.8,Lundi 17,17,Mars,3,2025,CARD_PAYMENT
+433,Pai Lombarderie,2.8,Mardi 18,18,Mars,3,2025,CARD_PAYMENT
+434,CALAO Finance,5.83,Mercredi 19,19,Mars,3,2025,CARD_PAYMENT
+435,E.Leclerc,10.36,Jeudi 20,20,Mars,3,2025,CARD_PAYMENT
+436,E.Leclerc,4.87,Jeudi 20,20,Mars,3,2025,CARD_PAYMENT
+438,La Coupe Carree,20.4,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+439,IntermarchÃ©,18.57,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+440,Carrefour,44.0,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+442,DIS'Automatic,0.95,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+443,DIS'Automatic,0.7,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+444,Flash Net,2.4,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+445,Les Hameaux Bio 5,61.57,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+446,Flash Net,5.0,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+447,Flash Net,1.2,Vendredi 21,21,Mars,3,2025,CARD_PAYMENT
+448,MAISON GEORGES LARNICOL - MOF - Biscuiterie Chocolaterie,6.0,Samedi 22,22,Mars,3,2025,CARD_PAYMENT
+449,Otaku No Dera,45.0,Samedi 22,22,Mars,3,2025,CARD_PAYMENT
+450,Avril,8.0,Samedi 22,22,Mars,3,2025,CARD_PAYMENT
+451,Volcom Nantes,65.0,Samedi 22,22,Mars,3,2025,CARD_PAYMENT
+452,Papaia,31.0,Samedi 22,22,Mars,3,2025,CARD_PAYMENT
+453,DIS'Automatic,0.95,Lundi 24,24,Mars,3,2025,CARD_PAYMENT
+454,DIS'Automatic,0.7,Lundi 24,24,Mars,3,2025,CARD_PAYMENT
+455,DIS'Automatic,0.65,Lundi 24,24,Mars,3,2025,CARD_PAYMENT
+456,DIS'Automatic,0.7,Lundi 24,24,Mars,3,2025,CARD_PAYMENT
+457,E.Leclerc,1.69,Lundi 24,24,Mars,3,2025,CARD_PAYMENT
+458,Papaia,29.5,Dimanche 23,23,Mars,3,2025,CARD_PAYMENT
+459,Boulangerie Ange,2.9,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+460,E.Leclerc,11.68,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+461,DIS'Automatic,0.95,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+462,DIS'Automatic,0.95,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+463,DIS'Automatic,0.7,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+464,DIS'Automatic,0.65,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+465,DIS'Automatic,0.95,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+466,DIS'Automatic,0.8,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+467,DIS'Automatic,0.65,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+468,DIS'Automatic,0.65,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+469,DIS'Automatic,0.65,Mardi 25,25,Mars,3,2025,CARD_PAYMENT
+470,Burger King,10.8,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+471,DIS'Automatic,0.8,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+472,DIS'Automatic,0.95,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+473,DIS'Automatic,0.95,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+474,DIS'Automatic,0.7,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+475,Game Over,9.0,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+476,Game Over,9.0,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+478,The Coffee House,12.0,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+479,The Coffee House,12.0,Mercredi 26,26,Mars,3,2025,CARD_PAYMENT
+480,DIS'Automatic,0.7,Jeudi 27,27,Mars,3,2025,CARD_PAYMENT
+481,DIS'Automatic,0.8,Jeudi 27,27,Mars,3,2025,CARD_PAYMENT
+482,DIS'Automatic,0.95,Jeudi 27,27,Mars,3,2025,CARD_PAYMENT
+483,DIS'Automatic,0.7,Jeudi 27,27,Mars,3,2025,CARD_PAYMENT
+484,E.Leclerc,27.6,Jeudi 27,27,Mars,3,2025,CARD_PAYMENT
+485,Les Hameaux Bio 5,28.92,Vendredi 28,28,Mars,3,2025,CARD_PAYMENT
+486,DIS'Automatic,0.95,Vendredi 28,28,Mars,3,2025,CARD_PAYMENT
+487,DIS'Automatic,0.95,Vendredi 28,28,Mars,3,2025,CARD_PAYMENT
+488,DIS'Automatic,0.7,Vendredi 28,28,Mars,3,2025,CARD_PAYMENT
+489,IntermarchÃ©,26.91,Samedi 29,29,Mars,3,2025,CARD_PAYMENT
+490,Papaia,27.0,Samedi 29,29,Mars,3,2025,CARD_PAYMENT
+491,IntermarchÃ©,17.15,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+492,Papaia,14.0,Dimanche 30,30,Mars,3,2025,CARD_PAYMENT
+493,DIS'Automatic,0.95,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+494,DIS'Automatic,1.1,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+495,DIS'Automatic,1.05,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+496,DIS'Automatic,1.1,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+497,Pai Lombarderie,1.0,Lundi 31,31,Mars,3,2025,CARD_PAYMENT
+498,La Bodega,7.7,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+499,DIS'Automatic,0.65,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+500,DIS'Automatic,0.7,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+501,DIS'Automatic,0.95,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+502,DIS'Automatic,0.65,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+503,DIS'Automatic,0.7,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+504,DIS'Automatic,0.65,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+505,DIS'Automatic,0.65,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+506,Game Over,9.0,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+507,Game Over,12.0,Mardi 1,1,Avril,4,2025,CARD_PAYMENT
+508,CALAO Finance,7.69,Mercredi 2,2,Avril,4,2025,CARD_PAYMENT
+509,DIS'Automatic,0.7,Mercredi 2,2,Avril,4,2025,CARD_PAYMENT
+510,DIS'Automatic,0.95,Mercredi 2,2,Avril,4,2025,CARD_PAYMENT
+512,Super U,28.23,Jeudi 3,3,Avril,4,2025,CARD_PAYMENT
+513,Feydeau,6.3,Jeudi 3,3,Avril,4,2025,CARD_PAYMENT
+515,Pains Et Gourmandis,2.65,Vendredi 4,4,Avril,4,2025,CARD_PAYMENT
+516,CALAO Finance,10.0,Vendredi 4,4,Avril,4,2025,CARD_PAYMENT
+517,Hyper U,14.29,Vendredi 4,4,Avril,4,2025,CARD_PAYMENT
+518,DIS'Automatic,0.7,Vendredi 4,4,Avril,4,2025,CARD_PAYMENT
+520,Super U,36.93,Samedi 5,5,Avril,4,2025,CARD_PAYMENT
+521,Lefkas,106.25,Samedi 5,5,Avril,4,2025,CARD_PAYMENT
+522,Auto Moto,87.21,Samedi 5,5,Avril,4,2025,CARD_PAYMENT
+524,E.Leclerc,33.5,Lundi 7,7,Avril,4,2025,CARD_PAYMENT
+525,Dafy Moto Orvaul,277.47,Lundi 7,7,Avril,4,2025,CARD_PAYMENT
+526,Carrefour,7.64,Lundi 7,7,Avril,4,2025,CARD_PAYMENT
+527,Super U,3.78,Mardi 8,8,Avril,4,2025,CARD_PAYMENT
+528,Phcie Toutes Aides,7.92,Mercredi 9,9,Avril,4,2025,CARD_PAYMENT
+529,Unan Regie30 Sum,9.0,Mercredi 9,9,Avril,4,2025,CARD_PAYMENT
+530,Boulangerie Deslandes,3.65,Jeudi 10,10,Avril,4,2025,CARD_PAYMENT
+531,E.Leclerc,15.36,Vendredi 11,11,Avril,4,2025,CARD_PAYMENT
+532,Les Hameaux Bio 5,21.75,Samedi 12,12,Avril,4,2025,CARD_PAYMENT
+533,E.Leclerc,13.73,Mardi 15,15,Avril,4,2025,CARD_PAYMENT
+534,TotalEnergies,10.05,Mercredi 16,16,Avril,4,2025,CARD_PAYMENT
+536,TotalEnergies,20.0,Mercredi 16,16,Avril,4,2025,CARD_PAYMENT
+537,Astikoto,10.0,Mercredi 16,16,Avril,4,2025,CARD_PAYMENT
+538,E.Leclerc,39.93,Jeudi 17,17,Avril,4,2025,CARD_PAYMENT
+539,Station U,26.08,Vendredi 18,18,Avril,4,2025,CARD_PAYMENT
+540,Magasin U,2.06,Vendredi 18,18,Avril,4,2025,CARD_PAYMENT
+541,Le Ferrailleur,3.53,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+543,Lefkas,0.05,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+544,La Terrasse de lâÃle,10.6,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+545,Papaia,30.0,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+546,Le Ferrailleur,4.5,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+547,Canaille cafe brasserie,18.4,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+548,Le Ferrailleur,12.0,Samedi 19,19,Avril,4,2025,CARD_PAYMENT
+549,Caroline,10.0,Lundi 21,21,Avril,4,2025,CARD_PAYMENT
+550,Le Joffre,12.0,Lundi 21,21,Avril,4,2025,CARD_PAYMENT
+551,Le Joffre,9.0,Lundi 21,21,Avril,4,2025,CARD_PAYMENT
+552,Hyper U,4.12,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+553,Barberousse Nantes,10.0,Lundi 21,21,Avril,4,2025,CARD_PAYMENT
+554,DIS'Automatic,0.95,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+555,DIS'Automatic,0.7,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+556,DIS'Automatic,0.65,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+557,DIS'Automatic,0.7,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+558,NaturÃ©o La Chapelle-sur-Erdre,17.95,Mardi 22,22,Avril,4,2025,CARD_PAYMENT
+559,Hyper U,6.56,Mercredi 23,23,Avril,4,2025,CARD_PAYMENT
+560,DIS'Automatic,0.7,Mercredi 23,23,Avril,4,2025,CARD_PAYMENT
+561,IntermarchÃ©,14.85,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+562,DIS'Automatic,0.7,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+563,DIS'Automatic,0.65,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+564,DIS'Automatic,0.65,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+565,DIS'Automatic,0.7,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+566,DIS'Automatic,0.95,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+567,DIS'Automatic,0.65,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+568,DIS'Automatic,0.65,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+569,DIS'Automatic,0.65,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+570,The Coffee House,8.0,Jeudi 24,24,Avril,4,2025,CARD_PAYMENT
+572,IntermarchÃ©,25.91,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+573,DIS'Automatic,0.95,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+574,DIS'Automatic,0.95,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+575,DIS'Automatic,0.8,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+576,DIS'Automatic,0.95,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+577,DIS'Automatic,1.1,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+578,DIS'Automatic,0.8,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+579,DIS'Automatic,0.65,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+580,DIS'Automatic,0.95,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+581,DIS'Automatic,0.65,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+582,DIS'Automatic,1.05,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+583,DIS'Automatic,0.65,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+584,DIS'Automatic,0.7,Vendredi 25,25,Avril,4,2025,CARD_PAYMENT
+585,IntermarchÃ©,15.42,Samedi 26,26,Avril,4,2025,CARD_PAYMENT
+586,Papaia,10.0,Dimanche 27,27,Avril,4,2025,CARD_PAYMENT
+587,Les Fleurs Du Ma,4.7,Lundi 28,28,Avril,4,2025,CARD_PAYMENT
+588,Les Fleurs Du Ma,4.7,Lundi 28,28,Avril,4,2025,CARD_PAYMENT
+589,IntermarchÃ©,12.58,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+590,DIS'Automatic,0.65,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+591,DIS'Automatic,0.95,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+592,DIS'Automatic,0.65,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+593,DIS'Automatic,0.65,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+594,DIS'Automatic,0.65,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+595,DIS'Automatic,0.95,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+596,DIS'Automatic,0.7,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+597,F&d,28.0,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+598,Game Over,14.0,Mardi 29,29,Avril,4,2025,CARD_PAYMENT
+599,DIS'Automatic,0.95,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+600,DIS'Automatic,0.65,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+601,DIS'Automatic,0.7,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+603,The Coffee House,8.0,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+604,The Coffee House,11.5,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+605,The Coffee House,11.2,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+606,Carrefour,19.46,Mercredi 30,30,Avril,4,2025,CARD_PAYMENT
+607,Les Fleurs Du Ma,3.9,Jeudi 1,1,Mai,5,2025,CARD_PAYMENT
+608,Les Fleurs Du Ma,15.0,Jeudi 1,1,Mai,5,2025,CARD_PAYMENT
+609,Les Fleurs Du Ma,44.4,Jeudi 1,1,Mai,5,2025,CARD_PAYMENT
+610,IntermarchÃ©,31.34,Vendredi 2,2,Mai,5,2025,CARD_PAYMENT
+611,TotalEnergies,6.79,Samedi 3,3,Mai,5,2025,CARD_PAYMENT
+612,MaxiCoffee,2.0,Samedi 3,3,Mai,5,2025,CARD_PAYMENT
+613,Le Champ de Mars,12.0,Samedi 3,3,Mai,5,2025,CARD_PAYMENT
+614,Papaia,32.0,Dimanche 4,4,Mai,5,2025,CARD_PAYMENT
+615,Papaia,2.5,Dimanche 4,4,Mai,5,2025,CARD_PAYMENT
+617,IntermarchÃ©,4.87,Lundi 5,5,Mai,5,2025,CARD_PAYMENT
+618,CALAO Finance,6.62,Lundi 5,5,Mai,5,2025,CARD_PAYMENT
+619,IntermarchÃ©,22.28,Mardi 6,6,Mai,5,2025,CARD_PAYMENT
+620,DIS'Automatic,0.8,Mardi 6,6,Mai,5,2025,CARD_PAYMENT
+621,CALAO Finance,4.44,Mercredi 7,7,Mai,5,2025,CARD_PAYMENT
+622,Lbvm Nantes,7.0,Mercredi 7,7,Mai,5,2025,CARD_PAYMENT
+623,Lidl,21.07,Jeudi 8,8,Mai,5,2025,CARD_PAYMENT
+624,Carrefour,60.34,Samedi 10,10,Mai,5,2025,CARD_PAYMENT
+625,Carrefour,44.0,Samedi 10,10,Mai,5,2025,CARD_PAYMENT
+626,Papaia,32.0,Dimanche 11,11,Mai,5,2025,CARD_PAYMENT
+627,DIS'Automatic,0.8,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+628,DIS'Automatic,0.95,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+629,DIS'Automatic,0.8,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+630,DIS'Automatic,0.65,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+631,DIS'Automatic,0.7,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+632,DIS'Automatic,0.65,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+633,DIS'Automatic,0.65,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+634,DIS'Automatic,0.65,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+635,DIS'Automatic,0.95,Mercredi 14,14,Mai,5,2025,CARD_PAYMENT
+636,F&d,22.5,Jeudi 15,15,Mai,5,2025,CARD_PAYMENT
+637,DIS'Automatic,0.95,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+638,Unan Regie30 Sum,9.0,Jeudi 15,15,Mai,5,2025,CARD_PAYMENT
+639,IntermarchÃ©,29.26,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+640,DIS'Automatic,0.65,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+641,DIS'Automatic,0.65,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+642,DIS'Automatic,0.7,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+643,DIS'Automatic,0.65,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+644,DIS'Automatic,0.65,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+645,DIS'Automatic,0.65,Vendredi 16,16,Mai,5,2025,CARD_PAYMENT
+646,Acrocime,7.0,Dimanche 18,18,Mai,5,2025,CARD_PAYMENT
+647,Papaia,14.5,Dimanche 18,18,Mai,5,2025,CARD_PAYMENT
+648,Flash Net,3.6,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+649,Flash Net,5.0,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+650,Flash Net,2.4,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+651,Flash Net,0.7,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+652,Flash Net,0.7,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+653,DIS'Automatic,1.1,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+654,DIS'Automatic,0.7,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+655,DIS'Automatic,0.7,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+656,IntermarchÃ©,6.46,Lundi 19,19,Mai,5,2025,CARD_PAYMENT
+657,DIS'Automatic,1.1,Mercredi 21,21,Mai,5,2025,CARD_PAYMENT
+658,DIS'Automatic,0.65,Mercredi 21,21,Mai,5,2025,CARD_PAYMENT
+659,DIS'Automatic,0.7,Mercredi 21,21,Mai,5,2025,CARD_PAYMENT
+660,DIS'Automatic,0.7,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+661,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+662,DIS'Automatic,0.95,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+663,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+664,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+665,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+666,DIS'Automatic,0.7,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+667,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+668,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+669,DIS'Automatic,0.65,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+670,DIS'Automatic,0.95,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+671,DIS'Automatic,0.95,Vendredi 23,23,Mai,5,2025,CARD_PAYMENT
+672,DIS'Automatic,0.7,Jeudi 22,22,Mai,5,2025,CARD_PAYMENT
+673,DIS'Automatic,0.7,Jeudi 22,22,Mai,5,2025,CARD_PAYMENT

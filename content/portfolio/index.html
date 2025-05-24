@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="script.js"></script>
+  <link rel="icon" href="./image/icon4.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+RO:wght@100..400&family=Satisfy&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --color1: #117170;
+      --color2: #1d1d1d;
+      --color3: #eeeeee;
+      --shdw: 0 0 5px black;
+
+
+      --background: url(./image/hexa.jpg);
+      --backcolorslide: var(--color3);
+    }
+
+    :root {
+      --color1: #117170;
+      --color2: #1d1d1d;
+      --color3: #eeeeee;
+      --shdw: 0 0 5px black;
+
+
+      --background: url(./image/hexa.jpg);
+      --backcolorslide: var(--color3);
+      --burger: url(./image/darkburger.png);
+      --sun: url(./image/darkmoon.png);
+      --sunhover: url(./image/bluemoon.png);
+      --FB: url(./image/darkinsta.png);
+      --LK: url(./image/darklk.png)
+    }
+
+    .dark-theme {
+      --color1: #117170;
+      --color2: #eeeeee;
+      --color3: #1d1d1d;
+      --shdw: 0 0 5px black;
+
+
+      --background: url(./image/darkhexa.jpg);
+      --backcolorslide: var(--color3);
+      --burger: url(./image/lightburger.png);
+      --sun: url(./image/lightsun.png);
+      --sunhover: url(./image/bluesun.png);
+      --FB: url(./image/lightinsta.png);
+      --LK: url(./image/lightlk.png)
+    }
+
+    * {
+      font-family: "satisfy", 'Courier New', Courier, monospace;
+    }
+
+    p {
+      font-family: 'time', Courier, monospace;
+      color: var(--color2);
+      text-align: justify;
+    }
+
+    body {
+      background-image: var(--background);
+      margin: 0;
+
+    }
+
+
+    html {
+      scroll-padding-top: 160px;
+      scroll-behavior: smooth;
+      scrollbar-width: auto;
+      scrollbar-color: var(--color1) var(--color3);
+    }
+
+
+
+    /*--------------------*/
+    /*-------THEME-------*/
+    /*--------------------*/
+    .theme {
+      padding: 15px;
+      background-image: var(--sun);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+    }
+
+    .theme:hover {
+      background-image: var(--sunhover);
+
+    }
+
+    /*--------------------*/
+    /*------BURGER--------*/
+    /*--------------------*/
+    .burger {
+      padding: 0 20px;
+      display: none;
+    }
+
+    .burgerbut {
+      padding: 15px;
+      background-image: var(--burger);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+    }
+
+    .burger:hover .burgerbut {
+      background-image: url(./image/blueburger.png);
+    }
+
+
+
+    .burgernav {
+      padding: 5px 0;
+      margin: 0px 0px;
+      left: 0;
+      position: absolute;
+
+      list-style: none;
+      width: 100%;
+
+      overflow: hidden;
+      display: none;
+      opacity: 0;
+      transition: display 0.1s ease, opacity 0.4s ease;
+    }
+
+    .burger:hover .burgernav {
+      display: block;
+      opacity: 1;
+    }
+
+
+    .burgernav div {
+      background-color: var(--color3);
+      text-align: center;
+      width: 100%;
+      border-bottom: solid 1px var(--color1);
+    }
+
+    .burgernav a {
+      text-decoration: none;
+      color: var(--color2);
+      margin: 7px;
+      font-size: 22px;
+      transition: color 0.3s ease;
+    }
+
+    .burgernav a:hover {
+      color: var(--color1);
+    }
+
+
+
+
+
+
+    /*--------------------*/
+    /*-------NAVBAR-------*/
+    /*--------------------*/
+    .navbar {
+      margin: 0;
+      padding: 0;
+      height: 90px;
+      width: 100%;
+
+      position: fixed;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      background-color: var(--color3);
+      border-bottom: solid 1px var(--color1);
+
+      z-index: 100;
+    }
+
+    h1 {
+      margin: 0px;
+      padding: 0 20px;
+
+      text-align: center;
+
+      color: var(--color2);
+      font-size: 40px;
+
+      transition: color 0.3s ease;
+    }
+
+
+
+    .nav ul {
+      display: flex;
+      padding-left: 0;
+    }
+
+
+
+    .nav ul a {
+      text-decoration: none;
+    }
+
+    .nav ul a:not(:last-child) {
+      border-right: 1px solid var(--color1);
+    }
+
+    .nav ul a li {
+      margin: 0px 0px;
+      min-width: 50px;
+      height: 50px;
+      padding: 0 20px;
+
+      list-style: none;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 22px;
+      color: var(--color2);
+      font-weight: bold;
+
+      transition: color 0.3s ease;
+
+
+
+
+    }
+
+    .navbut {
+      color: var(--color4);
+    }
+
+    .nav ul a:hover .navbut {
+      color: var(--color1);
+    }
+
+
+
+
+
+    /*--------------------*/
+    /*------CONTENT-------*/
+    /*--------------------*/
+
+    .content {
+      padding-top: 90px;
+    }
+
+    h2 {
+      margin: 0 0 20px 10px;
+      color: var(--color2);
+      border-bottom: 1px solid var(--color1);
+      width: 150px;
+      text-align: center;
+      margin-left: 20%;
+
+    }
+
+
+    .area {
+      margin: 100px 0;
+      padding: 20px 100px 40px 100px;
+      background-color: var(--color3);
+    }
+
+    .text {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 1100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #un img {
+      margin: 0 50px;
+      float: left;
+      border-radius: 70px;
+    }
+
+    #deux {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #deux img {
+      margin: 20px 10px;
+      transition: transform 0.3s ease;
+    }
+
+    #deux img:hover {
+      transform: scale(1.2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #quatre {
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+
+    .reseaux {
+      min-width: 300px;
+      border-right: 1px solid var(--color1);
+      padding: 0;
+
+    }
+
+    .reseaux ul li {
+      list-style: none;
+      text-align: start;
+      font-weight: bold;
+      margin: 30px 0;
+    }
+
+    .reseaux ul li:nth-child(2) {
+      margin-bottom: 50px;
+    }
+
+    .reseaux ul li a.LK,
+    .reseaux ul li a.FB {
+      text-decoration: none;
+      color: var(--color2);
+    }
+
+    .LK span {
+      background-image: var(--LK);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+
+      padding: 0px 15px;
+
+    }
+
+    .FB span {
+      background-image: var(--FB);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+
+      padding: 0px 15px;
+
+    }
+
+    .cv-button {
+      background-color: var(--color2);
+      color: var(--color3);
+      padding: 10px 20px;
+      font-size: 17px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .reseaux ul li a.LK:hover,
+    .reseaux ul li a.FB:hover {
+      color: var(--color1);
+    }
+
+    .reseaux ul li a.LK:hover span {
+      background-image: url(./image/bluelk.png);
+    }
+
+
+    .reseaux ul li a.FB:hover span {
+      background-image: url(./image/blueinsta.png);
+    }
+
+    .cv-button:hover {
+      background-color: var(--color1);
+    }
+
+
+
+
+
+
+    form fieldset {
+      margin-left: 20px;
+      margin-top: 20px;
+      border: none;
+      padding: 20px;
+    }
+
+    .ligne-inputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .ligne-inputs input {
+      padding: 10px;
+      font-size: 13px;
+      font-family: 'times', Courier, monospace;
+      border: 1px solid var(--color2);
+      border-radius: 5px;
+
+    }
+
+    .ligne-textarea textarea {
+      padding: 10px;
+      width: 100%;
+      font-size: 13px;
+      font-family: 'times', Courier, monospace;
+      border: 1px solid var(--color2);
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 17px;
+      font-weight: bold;
+      background-color: var(--color2);
+      color: var(--color3);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--color1);
+      /* une nuance un peu plus foncée */
+    }
+
+
+    /*--------------------*/
+    /*-----CAROUSSEL------*/
+    /*--------------------*/
+
+    /*-----GESTION SLIDE------*/
+    .slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      border-radius: 30px;
+      border: 1px solid var(--color2);
+
+    }
+
+    .slides-container {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      overflow: scroll;
+      scroll-behavior: smooth;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .slide-arrow {
+      position: absolute;
+      display: flex;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 60px;
+      background-color: var(--color1);
+      border: none;
+      width: 30px;
+      font-size: 50px;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 100ms;
+      color: var(--color3);
+    }
+
+
+
+    .slide-arrow:hover {
+      opacity: 1;
+    }
+
+    #slide-arrow-prev {
+      left: 0;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+      font-family: 'times', Courier, monospace;
+    }
+
+    #slide-arrow-next {
+      right: 0;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+      font-family: 'times', Courier, monospace;
+    }
+
+    .slide {
+      width: 100%;
+
+
+      flex: 1 0 100%;
+    }
+
+
+
+    /*-----CONTENU SLIDE--------*/
+    .slide:nth-child(1) {
+      background-color: var(--color3);
+    }
+
+    .slide:nth-child(2) {
+      background-color: var(--color3);
+    }
+
+    .slide:nth-child(3) {
+      background-color: var(--color3);
+
+    }
+
+    h3 {
+      color: var(--color2);
+      font-size: 25px;
+    }
+
+
+    .innerslide {
+
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+    }
+
+    .innerslide img {
+      width: 50%;
+    }
+
+    .innerslide p {
+      width: 90%;
+      margin: auto;
+      color: var(--color2);
+      background-color: var(--color3);
+      border: 1px solid var(--color2);
+      margin: 30px 0;
+      border-radius: 30px;
+      padding: 20px;
+      text-align: justify;
+    }
+
+    /*--------------------*/
+    /*------FOOTER--------*/
+    /*--------------------*/
+    #last-area {
+      margin-bottom: 0;
+      padding-bottom: 50px;
+    }
+
+    .footer {
+
+
+      background-color: var(--color3);
+
+    }
+
+    .footer p {
+      width: fit-content;
+      margin: 0 auto;
+      padding: 35px;
+      border-top: solid 1px var(--color1);
+      font-size: 20px;
+      font-family: "satisfy", 'Courier New', Courier, monospace;
+      text-align: center;
+
+    }
+
+
+
+
+    /*--------------------*/
+    /*----RESPONSIVE------*/
+    /*--------------------*/
+
+
+
+    @media (max-width: 1200px) {
+      #un {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+    }
+
+
+    @media (max-width: 800px) {
+      .nav {
+        display: none;
+      }
+
+      .burger {
+        display: block;
+      }
+
+      .innerslide img {
+        width: 80%;
+      }
+
+      .innerslide p {
+        width: 60%;
+      }
+
+      #quatre {
+        flex-wrap: wrap;
+      }
+
+      .reseaux {
+        border: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .area {
+        padding: 20px 10% 40px 10%;
+      }
+
+    }
+
+    @media (max-width: 398px) {
+      .navbar {
+        height: 110px;
+      }
+
+      .burgernav {
+        padding: 30px 0;
+      }
+
+    }
+
+    .dark-theme {
+      --color1: #117170;
+      --color2: #eeeeee;
+      --color3: #1d1d1d;
+      --shdw: 0 0 5px black;
+
+
+      --background: url(./image/darkhexa.jpg);
+      --backcolorslide: var(--color3);
+      --burger: url(./image/lightburger.png);
+      --sun: url(./image/lightsun.png);
+      --sunhover: url(./image/bluesun.png);
+      --FB: url(./image/lightinsta.png);
+      --LK: url(./image/lightlk.png)
+    }
+
+    * {
+      font-family: "satisfy", 'Courier New', Courier, monospace;
+    }
+
+    p {
+      font-family: 'time', Courier, monospace;
+      color: var(--color2);
+      text-align: justify;
+    }
+
+    body {
+      background-image: var(--background);
+      margin: 0;
+
+    }
+
+
+    html {
+      scroll-padding-top: 160px;
+      scroll-behavior: smooth;
+      scrollbar-width: auto;
+      scrollbar-color: var(--color1) var(--color3);
+    }
+
+
+
+    /*--------------------*/
+    /*-------THEME-------*/
+    /*--------------------*/
+    .theme {
+      padding: 15px;
+      background-image: var(--sun);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+    }
+
+    .theme:hover {
+      background-image: var(--sunhover);
+
+    }
+
+    /*--------------------*/
+    /*------BURGER--------*/
+    /*--------------------*/
+    .burger {
+      padding: 0 20px;
+      display: none;
+    }
+
+    .burgerbut {
+      padding: 15px;
+      background-image: var(--burger);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+    }
+
+    .burger:hover .burgerbut {
+      background-image: url(./image/blueburger.png);
+    }
+
+
+
+    .burgernav {
+      padding: 5px 0;
+      margin: 0px 0px;
+      left: 0;
+      position: absolute;
+
+      list-style: none;
+      width: 100%;
+
+      overflow: hidden;
+      display: none;
+      opacity: 0;
+      transition: display 0.1s ease, opacity 0.4s ease;
+    }
+
+    .burger:hover .burgernav {
+      display: block;
+      opacity: 1;
+    }
+
+
+    .burgernav div {
+      background-color: var(--color3);
+      text-align: center;
+      width: 100%;
+      border-bottom: solid 1px var(--color1);
+    }
+
+    .burgernav a {
+      text-decoration: none;
+      color: var(--color2);
+      margin: 7px;
+      font-size: 22px;
+      transition: color 0.3s ease;
+    }
+
+    .burgernav a:hover {
+      color: var(--color1);
+    }
+
+
+
+
+
+
+    /*--------------------*/
+    /*-------NAVBAR-------*/
+    /*--------------------*/
+    .navbar {
+      margin: 0;
+      padding: 0;
+      height: 90px;
+      width: 100%;
+
+      position: fixed;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      background-color: var(--color3);
+      border-bottom: solid 1px var(--color1);
+
+      z-index: 100;
+    }
+
+    h1 {
+      margin: 0px;
+      padding: 0 20px;
+
+      text-align: center;
+
+      color: var(--color2);
+      font-size: 40px;
+
+      transition: color 0.3s ease;
+    }
+
+
+
+    .nav ul {
+      display: flex;
+      padding-left: 0;
+    }
+
+
+
+    .nav ul a {
+      text-decoration: none;
+    }
+
+    .nav ul a:not(:last-child) {
+      border-right: 1px solid var(--color1);
+    }
+
+    .nav ul a li {
+      margin: 0px 0px;
+      min-width: 50px;
+      height: 50px;
+      padding: 0 20px;
+
+      list-style: none;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 22px;
+      color: var(--color2);
+      font-weight: bold;
+
+      transition: color 0.3s ease;
+
+
+
+
+    }
+
+    .navbut {
+      color: var(--color4);
+    }
+
+    .nav ul a:hover .navbut {
+      color: var(--color1);
+    }
+
+
+
+
+
+    /*--------------------*/
+    /*------CONTENT-------*/
+    /*--------------------*/
+
+    .content {
+      padding-top: 90px;
+    }
+
+    h2 {
+      margin: 0 0 20px 10px;
+      color: var(--color2);
+      border-bottom: 1px solid var(--color1);
+      width: 150px;
+      text-align: center;
+      margin-left: 20%;
+
+    }
+
+
+    .area {
+      margin: 100px 0;
+      padding: 20px 100px 40px 100px;
+      background-color: var(--color3);
+    }
+
+    .text {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 1100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #un img {
+      margin: 0 50px;
+      float: left;
+      border-radius: 70px;
+    }
+
+    #deux {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #deux img {
+      margin: 20px 10px;
+      transition: transform 0.3s ease;
+    }
+
+    #deux img:hover {
+      transform: scale(1.2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #quatre {
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+
+    .reseaux {
+      min-width: 300px;
+      border-right: 1px solid var(--color1);
+      padding: 0;
+
+    }
+
+    .reseaux ul li {
+      list-style: none;
+      text-align: start;
+      font-weight: bold;
+      margin: 30px 0;
+    }
+
+    .reseaux ul li:nth-child(2) {
+      margin-bottom: 50px;
+    }
+
+    .reseaux ul li a.LK,
+    .reseaux ul li a.FB {
+      text-decoration: none;
+      color: var(--color2);
+    }
+
+    .LK span {
+      background-image: var(--LK);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+
+      padding: 0px 15px;
+
+    }
+
+    .FB span {
+      background-image: var(--FB);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: background-image 0.3s ease;
+
+      padding: 0px 15px;
+
+    }
+
+    .cv-button {
+      background-color: var(--color2);
+      color: var(--color3);
+      padding: 10px 20px;
+      font-size: 17px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .reseaux ul li a.LK:hover,
+    .reseaux ul li a.FB:hover {
+      color: var(--color1);
+    }
+
+    .reseaux ul li a.LK:hover span {
+      background-image: url(./image/bluelk.png);
+    }
+
+
+    .reseaux ul li a.FB:hover span {
+      background-image: url(./image/blueinsta.png);
+    }
+
+    .cv-button:hover {
+      background-color: var(--color1);
+    }
+
+
+
+
+
+
+    form fieldset {
+      margin-left: 20px;
+      margin-top: 20px;
+      border: none;
+      padding: 20px;
+    }
+
+    .ligne-inputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .ligne-inputs input {
+      padding: 10px;
+      font-size: 13px;
+      font-family: 'times', Courier, monospace;
+      border: 1px solid var(--color2);
+      border-radius: 5px;
+
+    }
+
+    .ligne-textarea textarea {
+      padding: 10px;
+      width: 100%;
+      font-size: 13px;
+      font-family: 'times', Courier, monospace;
+      border: 1px solid var(--color2);
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 17px;
+      font-weight: bold;
+      background-color: var(--color2);
+      color: var(--color3);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--color1);
+      /* une nuance un peu plus foncée */
+    }
+
+
+    /*--------------------*/
+    /*-----CAROUSSEL------*/
+    /*--------------------*/
+
+    /*-----GESTION SLIDE------*/
+    .slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      border-radius: 30px;
+      border: 1px solid var(--color2);
+
+    }
+
+    .slides-container {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      overflow: scroll;
+      scroll-behavior: smooth;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .slide-arrow {
+      position: absolute;
+      display: flex;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 60px;
+      background-color: var(--color1);
+      border: none;
+      width: 30px;
+      font-size: 50px;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 100ms;
+      color: var(--color3);
+    }
+
+
+
+    .slide-arrow:hover {
+      opacity: 1;
+    }
+
+    #slide-arrow-prev {
+      left: 0;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+      font-family: 'times', Courier, monospace;
+    }
+
+    #slide-arrow-next {
+      right: 0;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+      font-family: 'times', Courier, monospace;
+    }
+
+    .slide {
+      width: 100%;
+
+
+      flex: 1 0 100%;
+    }
+
+
+
+    /*-----CONTENU SLIDE--------*/
+    .slide:nth-child(1) {
+      background-color: var(--color3);
+    }
+
+    .slide:nth-child(2) {
+      background-color: var(--color3);
+    }
+
+    .slide:nth-child(3) {
+      background-color: var(--color3);
+
+    }
+
+    h3 {
+      color: var(--color2);
+      font-size: 25px;
+    }
+
+
+    .innerslide {
+
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+    }
+
+    .innerslide img {
+      width: 50%;
+    }
+
+    .innerslide p {
+      width: 90%;
+      margin: auto;
+      color: var(--color2);
+      background-color: var(--color3);
+      border: 1px solid var(--color2);
+      margin: 30px 0;
+      border-radius: 30px;
+      padding: 20px;
+      text-align: justify;
+    }
+
+    /*--------------------*/
+    /*------FOOTER--------*/
+    /*--------------------*/
+    #last-area {
+      margin-bottom: 0;
+      padding-bottom: 50px;
+    }
+
+    .footer {
+
+
+      background-color: var(--color3);
+
+    }
+
+    .footer p {
+      width: fit-content;
+      margin: 0 auto;
+      padding: 35px;
+      border-top: solid 1px var(--color1);
+      font-size: 20px;
+      font-family: "satisfy", 'Courier New', Courier, monospace;
+      text-align: center;
+
+    }
+
+
+
+
+    /*--------------------*/
+    /*----RESPONSIVE------*/
+    /*--------------------*/
+
+
+
+    @media (max-width: 1200px) {
+      #un {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+    }
+
+
+    @media (max-width: 800px) {
+      .nav {
+        display: none;
+      }
+
+      .burger {
+        display: block;
+      }
+
+      .innerslide img {
+        width: 80%;
+      }
+
+      .innerslide p {
+        width: 60%;
+      }
+
+      #quatre {
+        flex-wrap: wrap;
+      }
+
+      .reseaux {
+        border: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .area {
+        padding: 20px 10% 40px 10%;
+      }
+
+    }
+
+    @media (max-width: 398px) {
+      .navbar {
+        height: 110px;
+      }
+
+      .burgernav {
+        padding: 30px 0;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+<script>window.onload = () => {
+
+
+    let isDarkTheme = false
+
+    let root = document.querySelector(":root")
+
+    document.getElementById("theme-button").addEventListener("click", () => {
+        root.className = isDarkTheme ? "" : "dark-theme"
+        isDarkTheme = !isDarkTheme
+    });
+
+
+
+    const slidesContainer = document.getElementById("slides-container");
+    const slide = document.querySelector(".slide");
+    const prevButton = document.getElementById("slide-arrow-prev");
+    const nextButton = document.getElementById("slide-arrow-next");
+
+    nextButton.addEventListener("click", () => {
+        const slideWidth = slide.clientWidth;
+        slidesContainer.scrollLeft += slideWidth;
+    });
+
+    prevButton.addEventListener("click", () => {
+        const slideWidth = slide.clientWidth;
+        slidesContainer.scrollLeft -= slideWidth;
+    });
+
+}
+</script>
+  <div class="navbar">
+
+
+    <h1>Gaëtan Ferreira</h1>
+
+    <div class="theme" id="theme-button"></div>
+
+    <div class="nav">
+
+      <ul>
+        <a href="#un">
+          <li class="navbut">À propos</li>
+        </a>
+        <a href="#deux">
+          <li class="navbut">Hardskills</li>
+        </a>
+        <a href="#3">
+          <li class="navbut">Projets</li>
+        </a>
+        <a href="#quatre">
+          <li class="navbut">Contact</li>
+        </a>
+      </ul>
+    </div>
+
+
+
+
+
+    <div class="burger">
+
+      <div class="burgerbut"></div>
+
+      <ul class="burgernav">
+        <div>
+          <a href="#un">
+            <li class="navbut">À propos</li>
+          </a>
+          <a href="#deux">
+            <li class="navbut">Hardskills</li>
+          </a>
+          <a href="#3">
+            <li class="navbut">Projets</li>
+          </a>
+          <a href="#quatre">
+            <li class="navbut">CV</li>
+          </a>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <div class="content" id="0">
+    <div class="area">
+      <h2>À propos</h2>
+      <div class="text" id="un">
+        <div>
+          <p>Je m'appelle Gaëtan Ferreira, j'ai 28 ans, et je me lance aujourd'hui dans une nouvelle
+            aventure : reprendre mes études en BUT informatique à l’IUT de Nantes, pour concrétiser un rêve d'enfant.
+            Depuis aussi loin que je me souvienne, les nouvelles technologies m'ont toujours captivées. Devenir
+            développeur, c'est
+            pour moi
+            bien plus qu'un métier : c'est une vocation, un moyen de combiner ma passion pour la logique et ma
+            créativité
+            afin de transformer des idées en solutions innovantes.</p>
+
+          <p>Après avoir quitté mes études pour entrer dans le monde professionnel, je me suis vite rendu compte que je
+            ne
+            trouvais pas ma véritable place. Ces années m'ont été précieuses : elles m'ont permis de grandir, de vivre
+            mes
+            passions sportives et, surtout, de confirmer mon objectif de longue date. Ce désir de coder, d'innover, de
+            bâtir
+            des solutions numériques n'a jamais faibli.</p>
+
+          <p>Me voici donc de retour sur les bancs de l'école, avec une soif d'apprendre et une énergie débordante. Je
+            suis
+            prêt à relever tous les défis pour acquérir les compétences nécessaires et construire une carrière qui me
+            ressemble : passionnante, stimulante et tournée vers l'innovation.</p>
+          <p>L'avenir m'appelle, et je suis déterminé
+            à y
+            répondre avec ambition et détermination.</p>
+        </div>
+        <img src="./image/moi.png" alt="" height="300">
+      </div>
+    </div>
+    <div class="area">
+      <h2>Hardskills</h2>
+
+      <div class="text" id="deux">
+        <img src="./image/kotlin.png" alt="" height="100">
+        <img src="./image/sql.png" alt="" height="100">
+        <img src="./image/go.png" alt="" height="70">
+        <img src="./image/html.png" alt="" height="100">
+        <img src="./image/css.png" alt="" height="100">
+        <img src="./image/git.png" alt="" height="90">
+      </div>
+    </div>
+    <div class="area">
+      <h2>Projets</h2>
+      <div class="text" id="3">
+        <!-- CARROUSSEL BY GPT LE GOAT-->
+        <section class="slider-wrapper">
+          <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;
+          </button>
+          <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;
+          </button>
+          <ul class="slides-container" id="slides-container">
+            <li class="slide">
+              <h3>Jeu 2D en Golang</h3>
+              <div class="innerslide">
+                <img src="./image/slide1.png" alt="">
+                <p>Développement d'un jeu 2D en Golang inspiré de Zelda. Mise en place de systèmes avancés comme la
+                  sauvegarde, l'exploitation de terrain avec des quadtrees, et la génération automatique de maps. Ajout
+                  d'extensions : portails de téléportation, gestion de caméra, amélioration des textures... Un projet
+                  complet mêlant algorithmie et gameplay.</p>
+              </div>
+            </li>
+            <li class="slide">
+              <h3>Site de vente</h3>
+              <div class="innerslide">
+                <img src="./image/slide2.png" alt="">
+                <p>Création d'un site e-commerce fictif de revente de skins League of Legends, codé uniquement en HTML
+                  et CSS. Site responsive avec animations CSS, optimisé pour offrir une navigation agréable. Un projet
+                  où l’esthétique et la rigueur du code étaient évaluées.</p>
+              </div>
+            </li>
+            <li class="slide">
+              <h3>Site d’avis de livres</h3>
+              <div class="innerslide">
+                <img src="./image/slide3.png" alt="">
+                <p>Réalisation d'un site vitrine dédié aux avis de livres, conçu pour être simple, clair et accessible.
+                  L'accent était mis sur l'ergonomie, l'expérience utilisateur et la facilité de navigation, avec
+                  plusieurs pages et une interface soignée.</p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="area" id="last-area">
+      <h2>Contact</h2>
+      <div class="text" id="quatre">
+        <div class="reseaux">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/gaetan-ferreira-2708892bb/" class="LK"><span></span>LinkedIn</a>
+            </li>
+            <li><a href="https://www.instagram.com/gaetan.bzh/" class="FB"><span></span>Instagram</a></li>
+            <li><a href="files/cv.pdf" download="CV_Ferreira_Gaetan.pdf" class="cv-button">Télécharger mon CV</a>
+            </li>
+          </ul>
+        </div>
+        <form action="#" method="post" class="formulaire">
+          <fieldset>
+            <div class="ligne-inputs">
+              <input type="text" name="nom" placeholder="Votre nom" required>
+              <input type="email" name="email" placeholder="Votre email" required>
+            </div>
+
+            <div class="ligne-textarea">
+              <textarea name="message" placeholder="Votre message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit">Envoyer</button>
+          </fieldset>
+        </form>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <div class="footer">
+    <p> © 2025 Gaëtan Ferreira — Création originale, pensée et développée par mes soins.</p>
+
+
+  </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
