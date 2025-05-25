@@ -1,8 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import pandas as pd
-
-
 from scripts.stats_bancaires.side_bar import sidebar_stats_bq
 from scripts.stats_bancaires.stats1 import stats1
 from scripts.stats_bancaires.stats2 import stats2
