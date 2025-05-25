@@ -1,4 +1,5 @@
 import pandas as pd
+from babel.dates import format_date
 
 
 # Retourne un dataframe à partir un d'un fichier csv de la banque Revolut
@@ -11,9 +12,9 @@ def load_data(file_csv):
     data['Amount'] = data['Amount'].str.replace(',', '.', regex=False).astype(float)
     data['Started Date'] = pd.to_datetime(data['Started Date'])
     data['year'] = data['Started Date'].dt.year
-    data['day'] = data['Started Date'].dt.day_name(locale='fr_FR') + ' ' + data['Started Date'].dt.day.astype(str)
+    data['day'] = data['Started Date'].apply(lambda x: format_date(x, format='MMMM', locale='fr_FR')) + ' ' + data['Started Date'].dt.day.astype(str)
     data['day_id'] = data['Started Date'].dt.day
-    data['month'] = data['Started Date'].dt.month_name(locale='fr_FR')
+    data['month'] = data['Started Date'].apply(lambda x: format_date(x, format='MMMM', locale='fr_FR'))
     data['month_id'] = data['Started Date'].dt.month
 
 

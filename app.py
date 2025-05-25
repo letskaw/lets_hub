@@ -5,5 +5,5 @@ st.set_page_config(
     page_icon="",                    # Icône de l'onglet
     layout="wide",
     menu_items=None,
-    initial_sidebar_state="collapsed"
+    #initial_sidebar_state="extended"
 )
