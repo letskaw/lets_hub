@@ -1,25 +1,20 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from scripts.stats_bancaires.script import get_list
-
-########################################################################
-########################
-### DATA & GRAPH 01 ###     Affichage de l'apercu du csv, trié par les menu déroulant
-
-# 📊 Données globale
+from scripts.bank_analyst.script import get_list
 
 def stats1():
     
     if 'data' in st.session_state:
-        cols = st.columns(2)
+        cols = st.columns(2, vertical_alignment="top")
 
         data_label_picked = st.session_state.data.copy()
-
-        ### Menu déroulant - label ###
-        st.session_state.data_label = get_list(st.session_state.data, 'label')
-        label = st.selectbox("Selectionnez une enseigne (optionnel)", st.session_state.data_label, index=0)
-
         with cols[0]:
+
+            ### Menu déroulant - label ###
+            st.session_state.data_label = get_list(st.session_state.data, 'label')
+            label = st.selectbox("Selectionnez une enseigne (optionnel)", st.session_state.data_label, index=0)
+
+        
             if label:
                 data_label_picked = st.session_state.data[st.session_state.data['label'] == label]
                 st.dataframe(data_label_picked)
@@ -67,5 +62,3 @@ def stats1():
 
         with cols[1]:
             st.pyplot(fig)
-    else:
-        st.subheader("❌     Aucun fichier csv chargé     ❌")

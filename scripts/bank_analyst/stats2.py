@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 
 def stats2():
 
-    cols = st.columns(2)
+    cols = st.columns(2, vertical_alignment="top")
+
 
     if 'data' in st.session_state:
         data = st.session_state.data
@@ -34,7 +35,3 @@ def stats2():
 
         with cols[1]:
             st.pyplot(fig)
-    else:
-        st.subheader("❌     Aucun fichier csv chargé     ❌")
-
-stats2()
