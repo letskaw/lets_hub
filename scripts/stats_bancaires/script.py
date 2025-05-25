@@ -1,8 +1,4 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
-from scipy.stats import linregress
 
 
 # Retourne un dataframe à partir un d'un fichier csv de la banque Revolut

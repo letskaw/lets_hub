@@ -1,6 +1,5 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import pandas as pd
 from scripts.stats_bancaires.script import get_list
 
 ########################################################################
