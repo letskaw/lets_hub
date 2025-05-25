@@ -12,7 +12,7 @@ def load_data(file_csv):
     data['Amount'] = data['Amount'].str.replace(',', '.', regex=False).astype(float)
     data['Started Date'] = pd.to_datetime(data['Started Date'])
     data['year'] = data['Started Date'].dt.year
-    data['day'] = data['Started Date'].apply(lambda x: format_date(x, format='EEEEE', locale='fr_FR')) + ' ' + data['Started Date'].dt.day.astype(str)
+    data['day'] = data['Started Date'].apply(lambda x: format_date(x, format='EEEE', locale='fr_FR')) + ' ' + data['Started Date'].dt.day.astype(str)
     data['day_id'] = data['Started Date'].dt.day
     data['month'] = data['Started Date'].apply(lambda x: format_date(x, format='MMMM', locale='fr_FR'))
     data['month_id'] = data['Started Date'].dt.month
