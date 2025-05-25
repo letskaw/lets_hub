@@ -1,8 +1,0 @@
-# Ignorer tout
-*
-
-# Garder seulement ces fichiers
-!README.md
-!app.py
-!pages/
-!scripts/
