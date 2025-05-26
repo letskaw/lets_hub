@@ -21,7 +21,7 @@ html_code = """
 iframe { width: 100%; height: 600px; border: none;6 }
 </style>
 <div class="container-iframe">
-    <iframe src="https://letskaw.com"></iframe>
+    <iframe src="https://letskaw.com/portfolio/"></iframe>
 </div>
 """
 components.html(html_code, height=620, scrolling=True)
