@@ -6,7 +6,7 @@
 base = "light"
 
 # Primary accent color.
-primaryColor ="#117170"
+primaryColor ="#006666" # 009999
 
 # Background color of the app.
 ##backgroundColor ="#ffffff"
@@ -15,7 +15,7 @@ primaryColor ="#117170"
 secondaryBackgroundColor ="#eeeeee"
 
 # Color used for almost all text.
-textColor ="#1d1d1d"
+textColor ="#333333" # old 1d1d1d
 
 # Color used for all links.
 ##linkColor ="rgb(255, 217, 0)"

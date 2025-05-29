@@ -1,4 +1,8 @@
 import streamlit as st
+from scripts.bank_analyst.script import get_pdf
+
+#from scripts.bank_analyst.script import get_pdf
+
 st.set_page_config(
     page_title="Let's Hub",              # Titre de l'onglet navigateur
     page_icon=":material/monitoring:",                         # Icône de l'onglet
@@ -6,10 +10,16 @@ st.set_page_config(
 )
 
 # Lance la sidebar personalisé 
-from scripts.bank_analyst.side_bar import sidebar_stats_bq
-sidebar_stats_bq()
+from scripts.bank_analyst.sidebar import sidebar
+sidebar()
 
+# Mise en place du titre
 st.header(":material/monitoring: Bank analyst")
+
+# Mise en place des onglets
+tab1, tab2, tab3 = "Données globale", "Comparatif entre enseignes",":material/calendar_clock: Coming soon"
+list_tab= [tab1, tab2, tab3]
+st.session_state.list_tab = list_tab
 
 #########################################
 # Message indiquant de joindre un fichier
@@ -23,33 +33,54 @@ if "data" not in st.session_state:
 #######################################################
 # Quand un fichier est joint et que la data est importé
 else:
-    from scripts.bank_analyst.stats1 import stats1
-    from scripts.bank_analyst.stats2 import stats2
 
-    list_tab= ["Données globale", "Comparatif entre enseignes", "Cooming soon :material/timer:"]
-    data = st.session_state.data
-    col1, col2 = st.columns(2, vertical_alignment="bottom")
+    # Chargement des scripts de stats
+    from scripts.bank_analyst.script import get_df1, get_fig1,get_df2, get_fig2, get_df1_title, get_df2_title #, show_metrics
 
-    # Selection de l'onglet de stats
-    with col1:
-        select_tab = st.segmented_control("", list_tab, default="Données globale")
 
-    # Boutton d'export des données en csv
-    with col2:
-        _, col2b = st.columns(2, vertical_alignment="bottom")
-        with col2b:
-            st.download_button("Télécharger les données", st.session_state.data.to_csv(index=False), "resultat.csv", "text/csv", type="primary")
+    select_tab = st.segmented_control("---", list_tab, default="Données globale")
 
+    data = st.session_state.data.copy()
+    col1, col2 = st.columns(2)
 
     # Lance l'onglet sur lequel on a cliqué
     if select_tab in list_tab:
 
-        if select_tab == "Données globale":
-            stats1()
+        st.session_state.segmented_picked = select_tab
 
-        elif select_tab == "Comparatif entre enseignes":
-            stats2()
+        # Premier onglet
+        if select_tab == tab1:
+
+            with col1:
+                get_df1_title()
+                st.dataframe(get_df1())
+            with col2:
+                st.markdown("")
+                st.pyplot(get_fig1())
+
+            #show_metrics()
+
+        # Deuxieme onglet
+        elif select_tab == tab2:
+            if st.session_state.label_picked:
+                st.toast(":material/warning: Le choix d'enseigne n'a aucun impact ici", icon=None)
+
+            if "data_without_label" in st.session_state:
+                            
+                with col1:
+                    get_df2_title()
+                    st.dataframe(get_df2())
+                with col2:
+                    st.markdown("")
+                    st.pyplot(get_fig2())
+
+
             
     # Sinon affiche un message invitant a cliquer sur un onglet
     else:
         st.subheader(':material/arrow_upward: Veuillez cliquer sur un onglet :material/arrow_upward:')
+
+
+
+
+
