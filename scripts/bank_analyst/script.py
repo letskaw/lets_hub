@@ -391,12 +391,11 @@ def get_sort_menu():
 
         ### Menu déroulant - day ###
         st.session_state.list_day= get_list(st.session_state.data, 'day')
-        if st.session_state.segmented_picked == st.session_state.list_tab[1]:
-            st.session_state.day = st.selectbox("Jour", st.session_state.list_day, index=0)
+        '''st.session_state.day = st.selectbox("Jour", st.session_state.list_day, index=0)
 
-            if st.session_state.day:
-                st.session_state.data = st.session_state.data[st.session_state.data['day'] == st.session_state.day]
-                st.session_state.data_without_label = st.session_state.data_without_label[st.session_state.data['day'] == st.session_state.day]
+        if st.session_state.day:
+            st.session_state.data = st.session_state.data[st.session_state.data['day'] == st.session_state.day]
+            st.session_state.data_without_label = st.session_state.data_without_label[st.session_state.data['day'] == st.session_state.day]'''
 #
 #
 #
