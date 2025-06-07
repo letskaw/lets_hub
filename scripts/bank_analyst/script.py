@@ -24,7 +24,7 @@ def load_data(file_csv):
     data = pd.read_csv(file_csv)
 
     # Reformatage des données
-    data['Amount'] = data['Amount'].str.replace(',', '.', regex=False).astype(float)
+    data['Amount'] = data['Amount'].astype(float)
     data['Started Date'] = pd.to_datetime(data['Started Date'])
     data['year'] = data['Started Date'].dt.year
     data['day'] = data['Started Date'].apply(lambda x: format_date(x, format='EEEE', locale='fr_FR')).str.capitalize() + ' ' + data['Started Date'].dt.day.astype(str)
